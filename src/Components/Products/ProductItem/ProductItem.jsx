@@ -1,9 +1,14 @@
 import './ProductItem.css';
 import {useNavigate} from "react-router-dom";
+import {useState} from "react";
 
-const ProductItem = ({product}) => {
+const ProductItem = ({product, addToCart}) => {
 
     let navigate = useNavigate();
+
+    const handleAddToCart = () => {
+        addToCart(product);
+    };
 
     const MoreInfoHandler = () => {
         navigate(`/info/${product.id}`)
@@ -19,7 +24,7 @@ const ProductItem = ({product}) => {
                 <p>{parseFloat((product.price + 30).toFixed(2))}$</p>
                 <h2>{product.price}$</h2>
                 <button onClick={() => MoreInfoHandler()}>More info..</button>
-                <button>Add to card</button>
+                <button onClick={handleAddToCart}>Add to cart</button>
             </div>
         </div>
     )

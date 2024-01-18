@@ -2,6 +2,7 @@ import '../Header/Header.css';
 import logo from '../../assets/img/logo.svg';
 
 const Header = () => {
+
     return (
         <header className='Header'>
             <img src={logo} alt="img"/>

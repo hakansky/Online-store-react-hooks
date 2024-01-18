@@ -3,3 +3,34 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 10px;
 }
+
+.Products .BasketDiv {
+    background-color: green;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    border-radius: 50px;
+    z-index: 1000;
+}
+
+.Products .CartLength {
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: green;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 1000;
+}
+
+.Products .shoppingBasket {
+    width: 30px;
+    padding: 10px;
+}
+
+.Products .BasketDiv:hover {
+    cursor: pointer;
+}

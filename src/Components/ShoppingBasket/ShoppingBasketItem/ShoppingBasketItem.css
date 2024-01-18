@@ -1,0 +1,34 @@
+.ShoppingBasketItem {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgrey;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.ShoppingBasketItemInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 30px;
+    word-wrap: break-word;
+}
+
+.ShoppingBasketItem img {
+    width: 15%;
+    height: 15%;
+    margin-right: 50px;
+}
+
+.ShoppingBasketItemInfo h1 {
+    font-size: 20px;
+}
+
+.ShoppingBasketItemInfo p {
+    font-size: 14px;
+}
+
+.ShoppingBasketItemInfo h2 {
+    font-size: 20px;
+    align-self: end;
+}

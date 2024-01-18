@@ -1,0 +1,23 @@
+.ShoppingBasket {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ShoppingBasket .Orders {
+    border: 1px solid grey;
+}
+
+.ShoppingBasket .backButton:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.ShoppingBasket .backButton {
+    position: fixed;
+    right: 20px;
+    bottom: 75px;
+}

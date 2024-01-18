@@ -8,11 +8,11 @@
     width: 100%;
 }
 
-.Footer h2 {
+.Footer h3 {
     transition: 0.5s;
 }
 
-.Footer h2:hover {
+.Footer h3:hover {
     cursor: pointer;
     transform: scale(110%);
 }
