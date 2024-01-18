@@ -7,6 +7,27 @@
 
 .Info img {
     width: 300px;
+    transition: 1s;
+}
+
+.Info img.active {
+    scale: 120%;
+}
+
+.Info .Price {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.Info .Price h3 {
+    text-decoration: line-through;
+    margin: auto 20px;
+}
+
+.Info .Price h1:nth-child(n + 2) {
+    color: red;
 }
 
 .Info .Container {

@@ -16,7 +16,8 @@ const ProductItem = ({product}) => {
                 <h1>{product.title}</h1>
             </div>
             <div className='SecondaryProductInfo'>
-                <p>{product.price}$</p>
+                <p>{parseFloat((product.price + 30).toFixed(2))}$</p>
+                <h2>{product.price}$</h2>
                 <button onClick={() => MoreInfoHandler()}>More info..</button>
                 <button>Add to card</button>
             </div>

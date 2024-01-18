@@ -36,8 +36,13 @@
     font-size: 20px;
 }
 
-.ProductItem p {
+.ProductItem h2 {
     font-size: 20px;
+    color: red;
+}
+
+.ProductItem p {
+    text-decoration: line-through;
 }
 
 img {

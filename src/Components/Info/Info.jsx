@@ -23,18 +23,26 @@ const Info = () => {
         navigate(`/`)
     }
 
+    let changeImgClassHandler = (e) => {
+        e.currentTarget.classList.toggle('active');
+    }
+
     return (
         <div className='Info'>
             {loading ? (
                 <Preloader/>
             ) : (
                 <>
-                    <img src={info.image} alt='img'/>
+                    <img src={info.image} alt='img' onClick={changeImgClassHandler}/>
                     <div className='Container'>
                         <h1>{info.title}</h1>
                         <p>{info.description}</p>
                         <h2>Category: {info.category}</h2>
-                        <h1>Price: {info.price}$</h1>
+                        <div className='Price'>
+                            <h1>Price: </h1>
+                            <h3>{parseFloat((info.price + 30).toFixed(2))}$</h3>
+                            <h1>{info.price}$</h1>
+                        </div>
                         <button className='addToCartButton'>Add to cart</button>
                         <button className='backButton' onClick={() => GoBackHandler()}>Go back</button>
                         <Reviews/>
