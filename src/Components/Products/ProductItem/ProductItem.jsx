@@ -6,7 +6,7 @@ const ProductItem = ({product}) => {
     let navigate = useNavigate();
 
     const MoreInfoHandler = () => {
-        navigate(`/Online-store-react-hooks/info/${product.id}`)
+        navigate(`/info/${product.id}`)
     }
 
     return (
