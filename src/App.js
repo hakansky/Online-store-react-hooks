@@ -8,11 +8,11 @@ import Aside from "./Components/Aside/Aside";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/Online-store-react-hooks/',
         element: <Products/>
     },
     {
-        path: '/info/:productId',
+        path: '/Online-store-react-hooks/info/:productId',
         element: <Info/>
     },
 ])

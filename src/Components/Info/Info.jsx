@@ -20,7 +20,7 @@ const Info = () => {
     }, [])
 
     const GoBackHandler = () => {
-        navigate(`/`)
+        navigate(`/Online-store-react-hooks/`)
     }
 
     return (
