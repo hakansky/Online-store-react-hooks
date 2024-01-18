@@ -1,0 +1,60 @@
+.ProductItem {
+    width: 200px;
+    margin: 50px 50px 50px 50px;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.MainProductInfo {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.SecondaryProductInfo {
+    height: 170px;
+    position: relative;
+    bottom: 0;
+}
+
+.ProductItem:hover {
+    transform: scale(105%);
+}
+
+.ProductItem h1 {
+    font-size: 20px;
+}
+
+.ProductItem p {
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+}
+
+.ProductItem button {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.ProductItem button:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}

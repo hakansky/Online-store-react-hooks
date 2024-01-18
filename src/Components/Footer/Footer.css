@@ -1,0 +1,18 @@
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Footer h2 {
+    transition: 0.5s;
+}
+
+.Footer h2:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}

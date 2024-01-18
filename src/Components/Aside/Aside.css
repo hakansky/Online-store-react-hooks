@@ -1,0 +1,13 @@
+.Aside {
+    display: flex;
+    width: 300px;
+    height: 230px;
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.Aside fieldset {
+    display: flex;
+    flex-direction: column;
+}

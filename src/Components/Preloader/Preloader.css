@@ -1,0 +1,18 @@
+.Preloader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    left: 37%;
+    top: 20%;
+    background-color: white;
+}
+
+.Preloader img {
+    width: 400px;
+}
+
+.Preloader h1 {
+    font-size: 50px;
+}

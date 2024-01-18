@@ -1,0 +1,38 @@
+.Info {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.Info img {
+    width: 300px;
+}
+
+.Info .Container {
+    margin: 0 0 0 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Info .Container .addToCartButton, .backButton {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    transition: 0.3s;
+    width: 20%;
+}
+
+.Info .Container .addToCartButton:hover, .backButton:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.Info .Container .backButton {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
